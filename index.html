@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>S. Narayan Sahani | Professional Singer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: white;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      background:
+        linear-gradient(90deg, #050505 25%, rgba(5,5,5,0.55)),
+        url("narayan-sahani-banner.png") center/cover no-repeat;
+    }
+
+    .content {
+      width: 1100px;
+      max-width: 100%;
+    }
+
+    .tag {
+      color: #d8ad55;
+      letter-spacing: 5px;
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(55px, 8vw, 100px);
+      line-height: 0.95;
+      margin-bottom: 25px;
+    }
+
+    h1 span {
+      color: #d8ad55;
+    }
+
+    .subtitle {
+      font-size: 22px;
+      letter-spacing: 3px;
+      margin-bottom: 18px;
+    }
+
+    .description {
+      max-width: 520px;
+      color: #d0d0d0;
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 35px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .primary {
+      background: #d8ad55;
+      color: #111;
+    }
+
+    .secondary {
+      border: 1px solid #d8ad55;
+      color: #d8ad55;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    .section {
+      padding: 80px 25px;
+      text-align: center;
+      background: #101010;
+    }
+
+    .section h2 {
+      color: #d8ad55;
+      font-family: Georgia, serif;
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 750px;
+      margin: auto;
+      color: #ccc;
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      margin-top: 45px;
+    }
+
+    .card {
+      width: 280px;
+      padding: 35px 25px;
+      background: #181818;
+      border: 1px solid #333;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      color: #d8ad55;
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    footer {
+      padding: 30px;
+      text-align: center;
+      background: #050505;
+      color: #999;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        padding: 30px 20px;
+        text-align: center;
+      }
+
+      .description {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .buttons {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="content">
+
+      <div class="tag">Professional Singer</div>
+
+      <h1>
+        S. Narayan<br>
+        <span>Sahani</span>
+      </h1>
+
+      <div class="subtitle">
+        SUFI NIGHTS • SAD & SOULFUL SONGS
+      </div>
+
+      <p class="description">
+        Where emotions become music. Experience soulful Sufi nights,
+        heartfelt melodies and unforgettable live performances.
+      </p>
+
+      <div class="buttons">
+        <a href="#music" class="btn primary">Listen to Music</a>
+        <a href="#contact" class="btn secondary">Book for a Show</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+    <h2>About the Artist</h2>
+
+    <p>
+      S. Narayan Sahani is a professional singer known for soulful
+      performances, Sufi nights and deeply emotional songs. His voice
+      brings together feeling, melody and the magic of live music.
+    </p>
+  </section>
+
+
+  <section class="section" id="music">
+
+    <h2>Music</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🎵 Sufi Nights</h3>
+        <p>
+          Soulful Sufi performances filled with emotion and spiritual vibes.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>💔 Sad & Soulful</h3>
+        <p>
+          Heart-touching songs that connect directly with the soul.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🎤 Live Shows</h3>
+        <p>
+          Powerful live performances for events, concerts and special nights.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="section" id="contact">
+
+    <h2>Book S. Narayan Sahani</h2>
+
+    <p>
+      For live performances, Sufi nights and special events,
+      get in touch for bookings and enquiries.
+    </p>
+
+    <br><br>
+
+    <a href="mailto:your-email@example.com" class="btn primary">
+      Contact for Booking
+    </a>
+
+  </section>
+
+
+  <footer>
+    © 2026 S. Narayan Sahani • Professional Singer
+  </footer>
+
+</body>
+</html>
